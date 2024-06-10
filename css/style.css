@@ -1,0 +1,43 @@
+.photo-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
+
+.photo-section img {
+    max-width: 100%;
+    height: auto;
+    margin: 0.5em;
+}
+
+.text-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.text-block {
+    background-color: black;
+    color: aliceblue;
+    padding: 1em;
+    margin: 0.5em;
+    flex: 1;
+    min-width: 200px;
+    text-align: center;
+}
+
+#photo1 {
+    height: 400px;
+    width: 500px;
+}
+
+#photo2 {
+    height: 400px;
+    width: 500px;
+}
+
+#photo3 {
+    height: 400px;
+    width: 500px;
+}
